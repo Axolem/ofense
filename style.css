@@ -1,9 +1,37 @@
 *{
     font-family: monospace;
 }
-div{
-    background-color: yellow;
+
+#div{ /*XXXXXX*/ 
+    background: yellow;
+    text-align: center;
 }
-#div{
-    background: none !important;
+#span{ /*BBBBBBB*/
+ border: 2px solid black;
+ margin-left: 75%;
+ width: 25%;
+ margin-top: -15px;
+}
+.span{ /*VVVVV*/
+    border-top: 2px dashed black;
+    text-align: center;
+}
+span.div{ /*YYYYYYY*/
+    border: 2px solid black;
+    width: 50%;
+    padding-right: 280px;
+    top: 2px;
+    left: 75%;
+}
+.div{ /*DDDDDDD*/
+    border: 2px solid black;
+    width: 25%;;
+    position: relative;
+    top: -15px;
+    left: 50%;
+}
+span{
+    position: relative;
+    top: 15px;
+    border: 2px solid black;
 }
