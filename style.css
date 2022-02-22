@@ -1,3 +1,9 @@
 *{
     font-family: monospace;
 }
+div{
+    background-color: yellow;
+}
+#div{
+    background: none !important;
+}
